@@ -18,7 +18,7 @@ export default function Donar() {
           {/* Contenedor con fondo oscuro directo (sin -z-10) */}
           <div
             className="relative rounded-[32px] overflow-hidden p-12 sm:p-16 text-center"
-            style={{ background: "linear-gradient(135deg, #0f0f0f 0%, #1a0a00 40%, #0f0f0f 100%)" }}
+            style={{ background: "linear-gradient(135deg, var(--ink-900) 0%, #1a0a00 40%, var(--ink-900) 100%)" }}
           >
             {/* Orbs animados DENTRO del contenedor */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">

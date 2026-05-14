@@ -166,17 +166,11 @@
 
 @layer utilities {
   .text-gradient {
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(135deg, #f97316 0%, #fb923c 50%, #fbbf24 100%);
+    color: #f97316;
   }
 
   .text-gradient-white {
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(135deg, #ffffff 0%, rgba(255,255,255,0.7) 100%);
+    color: #ffffff;
   }
 
   .bg-dot-pattern {
